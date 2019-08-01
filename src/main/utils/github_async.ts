@@ -27,5 +27,6 @@ const execCMD = function(cmd) {
  * 2、git push
  */
 export function githubAsync() {
-  execCMD(gitPullCmd).then(() => execCMD(gitPushCmd))
+  execCMD(gitPushCmd)
+  // execCMD(gitPullCmd).then(() => execCMD(gitPushCmd))
 }
