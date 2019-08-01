@@ -706,6 +706,7 @@ class Main extends Route {
   /** git async */
 
   _githubAysnc = () => {
+    console.log('github');
     githubAsync()
   }
 
